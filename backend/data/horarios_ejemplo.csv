@@ -1,0 +1,81 @@
+periodo,grupo,materia,docente,aula,edificio,dia,hora_inicio,hora_fin
+2026-AGO-DIC,1AS,Fundamentos de Programación,Mtra. Laura Méndez Ortiz,15,Edificio A,Lunes,07:00,08:40
+2026-AGO-DIC,1AS,Cálculo Diferencial,Dr. Ramón Aguilar Peña,15,Edificio A,Lunes,08:40,10:20
+2026-AGO-DIC,1AS,Matemáticas Discretas,Mtra. Sofía Navarro Ruiz,15,Edificio A,Lunes,10:50,12:30
+2026-AGO-DIC,1AS,Taller de Ética,Lic. Patricia Gómez Lara,15,Edificio A,Lunes,12:30,14:10
+2026-AGO-DIC,1AS,Cálculo Diferencial,Dr. Ramón Aguilar Peña,15,Edificio A,Martes,07:00,08:40
+2026-AGO-DIC,1AS,Matemáticas Discretas,Mtra. Sofía Navarro Ruiz,15,Edificio A,Martes,08:40,10:20
+2026-AGO-DIC,1AS,Taller de Ética,Lic. Patricia Gómez Lara,15,Edificio A,Martes,10:50,12:30
+2026-AGO-DIC,1AS,Fundamentos de Programación,Mtra. Laura Méndez Ortiz,15,Edificio A,Martes,12:30,14:10
+2026-AGO-DIC,1AS,Matemáticas Discretas,Mtra. Sofía Navarro Ruiz,15,Edificio A,Miércoles,07:00,08:40
+2026-AGO-DIC,1AS,Taller de Ética,Lic. Patricia Gómez Lara,15,Edificio A,Miércoles,08:40,10:20
+2026-AGO-DIC,1AS,Fundamentos de Programación,Mtra. Laura Méndez Ortiz,15,Edificio A,Miércoles,10:50,12:30
+2026-AGO-DIC,1AS,Cálculo Diferencial,Dr. Ramón Aguilar Peña,15,Edificio A,Miércoles,12:30,14:10
+2026-AGO-DIC,1AS,Taller de Ética,Lic. Patricia Gómez Lara,15,Edificio A,Jueves,07:00,08:40
+2026-AGO-DIC,1AS,Fundamentos de Programación,Mtra. Laura Méndez Ortiz,15,Edificio A,Jueves,08:40,10:20
+2026-AGO-DIC,1AS,Cálculo Diferencial,Dr. Ramón Aguilar Peña,15,Edificio A,Jueves,10:50,12:30
+2026-AGO-DIC,1AS,Matemáticas Discretas,Mtra. Sofía Navarro Ruiz,15,Edificio A,Jueves,12:30,14:10
+2026-AGO-DIC,1AS,Fundamentos de Programación,Mtra. Laura Méndez Ortiz,15,Edificio A,Viernes,07:00,08:40
+2026-AGO-DIC,1AS,Cálculo Diferencial,Dr. Ramón Aguilar Peña,15,Edificio A,Viernes,08:40,10:20
+2026-AGO-DIC,1AS,Matemáticas Discretas,Mtra. Sofía Navarro Ruiz,15,Edificio A,Viernes,10:50,12:30
+2026-AGO-DIC,1AS,Taller de Ética,Lic. Patricia Gómez Lara,15,Edificio A,Viernes,12:30,14:10
+2026-AGO-DIC,3AS,Cálculo Vectorial,Dr. Ramón Aguilar Peña,16,Edificio A,Lunes,07:00,08:40
+2026-AGO-DIC,3AS,Probabilidad y Estadística,Mtra. Elena Castro Vidal,16,Edificio A,Lunes,08:40,10:20
+2026-AGO-DIC,3AS,Contabilidad Financiera,C.P. Jorge Ibarra Soto,16,Edificio A,Lunes,10:50,12:30
+2026-AGO-DIC,3AS,Estructuras de Datos,Ing. Carlos Ruiz Montes,16,Edificio A,Lunes,12:30,14:10
+2026-AGO-DIC,3AS,Probabilidad y Estadística,Mtra. Elena Castro Vidal,16,Edificio A,Martes,07:00,08:40
+2026-AGO-DIC,3AS,Contabilidad Financiera,C.P. Jorge Ibarra Soto,16,Edificio A,Martes,08:40,10:20
+2026-AGO-DIC,3AS,Estructuras de Datos,Ing. Carlos Ruiz Montes,16,Edificio A,Martes,10:50,12:30
+2026-AGO-DIC,3AS,Cálculo Vectorial,Dr. Ramón Aguilar Peña,16,Edificio A,Martes,12:30,14:10
+2026-AGO-DIC,3AS,Contabilidad Financiera,C.P. Jorge Ibarra Soto,16,Edificio A,Miércoles,07:00,08:40
+2026-AGO-DIC,3AS,Estructuras de Datos,Ing. Carlos Ruiz Montes,16,Edificio A,Miércoles,08:40,10:20
+2026-AGO-DIC,3AS,Cálculo Vectorial,Dr. Ramón Aguilar Peña,16,Edificio A,Miércoles,10:50,12:30
+2026-AGO-DIC,3AS,Probabilidad y Estadística,Mtra. Elena Castro Vidal,16,Edificio A,Miércoles,12:30,14:10
+2026-AGO-DIC,3AS,Estructuras de Datos,Ing. Carlos Ruiz Montes,16,Edificio A,Jueves,07:00,08:40
+2026-AGO-DIC,3AS,Cálculo Vectorial,Dr. Ramón Aguilar Peña,16,Edificio A,Jueves,08:40,10:20
+2026-AGO-DIC,3AS,Probabilidad y Estadística,Mtra. Elena Castro Vidal,16,Edificio A,Jueves,10:50,12:30
+2026-AGO-DIC,3AS,Contabilidad Financiera,C.P. Jorge Ibarra Soto,16,Edificio A,Jueves,12:30,14:10
+2026-AGO-DIC,3AS,Cálculo Vectorial,Dr. Ramón Aguilar Peña,16,Edificio A,Viernes,07:00,08:40
+2026-AGO-DIC,3AS,Probabilidad y Estadística,Mtra. Elena Castro Vidal,16,Edificio A,Viernes,08:40,10:20
+2026-AGO-DIC,3AS,Contabilidad Financiera,C.P. Jorge Ibarra Soto,16,Edificio A,Viernes,10:50,12:30
+2026-AGO-DIC,3AS,Estructuras de Datos,Ing. Carlos Ruiz Montes,16,Edificio A,Viernes,12:30,14:10
+2026-AGO-DIC,5AS,Redes de Computadoras,Mtro. Hugo Paredes León,17,Edificio A,Lunes,07:00,08:40
+2026-AGO-DIC,5AS,Ingeniería de Software,Mtra. Laura Méndez Ortiz,17,Edificio A,Lunes,08:40,10:20
+2026-AGO-DIC,5AS,Bases de Datos,Mtro. Andrés Salinas Ríos,17,Edificio A,Lunes,10:50,12:30
+2026-AGO-DIC,5AS,Sistemas Operativos,Ing. Daniela Fuentes Mora,17,Edificio A,Lunes,12:30,14:10
+2026-AGO-DIC,5AS,Ingeniería de Software,Mtra. Laura Méndez Ortiz,17,Edificio A,Martes,07:00,08:40
+2026-AGO-DIC,5AS,Bases de Datos,Mtro. Andrés Salinas Ríos,17,Edificio A,Martes,08:40,10:20
+2026-AGO-DIC,5AS,Sistemas Operativos,Ing. Daniela Fuentes Mora,17,Edificio A,Martes,10:50,12:30
+2026-AGO-DIC,5AS,Redes de Computadoras,Mtro. Hugo Paredes León,17,Edificio A,Martes,12:30,14:10
+2026-AGO-DIC,5AS,Bases de Datos,Mtro. Andrés Salinas Ríos,17,Edificio A,Miércoles,07:00,08:40
+2026-AGO-DIC,5AS,Sistemas Operativos,Ing. Daniela Fuentes Mora,17,Edificio A,Miércoles,08:40,10:20
+2026-AGO-DIC,5AS,Redes de Computadoras,Mtro. Hugo Paredes León,17,Edificio A,Miércoles,10:50,12:30
+2026-AGO-DIC,5AS,Ingeniería de Software,Mtra. Laura Méndez Ortiz,17,Edificio A,Miércoles,12:30,14:10
+2026-AGO-DIC,5AS,Sistemas Operativos,Ing. Daniela Fuentes Mora,17,Edificio A,Jueves,07:00,08:40
+2026-AGO-DIC,5AS,Redes de Computadoras,Mtro. Hugo Paredes León,17,Edificio A,Jueves,08:40,10:20
+2026-AGO-DIC,5AS,Ingeniería de Software,Mtra. Laura Méndez Ortiz,17,Edificio A,Jueves,10:50,12:30
+2026-AGO-DIC,5AS,Bases de Datos,Mtro. Andrés Salinas Ríos,17,Edificio A,Jueves,12:30,14:10
+2026-AGO-DIC,5AS,Redes de Computadoras,Mtro. Hugo Paredes León,17,Edificio A,Viernes,07:00,08:40
+2026-AGO-DIC,5AS,Ingeniería de Software,Mtra. Laura Méndez Ortiz,17,Edificio A,Viernes,08:40,10:20
+2026-AGO-DIC,5AS,Bases de Datos,Mtro. Andrés Salinas Ríos,17,Edificio A,Viernes,10:50,12:30
+2026-AGO-DIC,5AS,Sistemas Operativos,Ing. Daniela Fuentes Mora,17,Edificio A,Viernes,12:30,14:10
+2026-AGO-DIC,7AS,Taller de Investigación,Dr. Miguel Ángel Torres,18,Edificio A,Lunes,07:00,08:40
+2026-AGO-DIC,7AS,Inteligencia Artificial,Dr. Miguel Ángel Torres,18,Edificio A,Lunes,08:40,10:20
+2026-AGO-DIC,7AS,Programación Web,Ing. Carlos Ruiz Montes,18,Edificio A,Lunes,10:50,12:30
+2026-AGO-DIC,7AS,Gestión de Proyectos,Mtra. Elena Castro Vidal,18,Edificio A,Lunes,12:30,14:10
+2026-AGO-DIC,7AS,Inteligencia Artificial,Dr. Miguel Ángel Torres,18,Edificio A,Martes,07:00,08:40
+2026-AGO-DIC,7AS,Programación Web,Ing. Carlos Ruiz Montes,18,Edificio A,Martes,08:40,10:20
+2026-AGO-DIC,7AS,Gestión de Proyectos,Mtra. Elena Castro Vidal,18,Edificio A,Martes,10:50,12:30
+2026-AGO-DIC,7AS,Taller de Investigación,Dr. Miguel Ángel Torres,18,Edificio A,Martes,12:30,14:10
+2026-AGO-DIC,7AS,Programación Web,Ing. Carlos Ruiz Montes,18,Edificio A,Miércoles,07:00,08:40
+2026-AGO-DIC,7AS,Gestión de Proyectos,Mtra. Elena Castro Vidal,18,Edificio A,Miércoles,08:40,10:20
+2026-AGO-DIC,7AS,Taller de Investigación,Dr. Miguel Ángel Torres,18,Edificio A,Miércoles,10:50,12:30
+2026-AGO-DIC,7AS,Inteligencia Artificial,Dr. Miguel Ángel Torres,18,Edificio A,Miércoles,12:30,14:10
+2026-AGO-DIC,7AS,Gestión de Proyectos,Mtra. Elena Castro Vidal,18,Edificio A,Jueves,07:00,08:40
+2026-AGO-DIC,7AS,Taller de Investigación,Dr. Miguel Ángel Torres,18,Edificio A,Jueves,08:40,10:20
+2026-AGO-DIC,7AS,Inteligencia Artificial,Dr. Miguel Ángel Torres,18,Edificio A,Jueves,10:50,12:30
+2026-AGO-DIC,7AS,Programación Web,Ing. Carlos Ruiz Montes,18,Edificio A,Jueves,12:30,14:10
+2026-AGO-DIC,7AS,Taller de Investigación,Dr. Miguel Ángel Torres,18,Edificio A,Viernes,07:00,08:40
+2026-AGO-DIC,7AS,Inteligencia Artificial,Dr. Miguel Ángel Torres,18,Edificio A,Viernes,08:40,10:20
+2026-AGO-DIC,7AS,Programación Web,Ing. Carlos Ruiz Montes,18,Edificio A,Viernes,10:50,12:30
+2026-AGO-DIC,7AS,Gestión de Proyectos,Mtra. Elena Castro Vidal,18,Edificio A,Viernes,12:30,14:10

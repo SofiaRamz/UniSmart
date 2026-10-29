@@ -1,0 +1,216 @@
+/* UniSmart AI — capa de presentación. Diseño: señalética de campus (verde pino + amarillo de señal). */
+@import "tailwindcss";
+@import "./map/map.css";
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-sunken: var(--sunken);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-pine: var(--pine);
+  --color-pine-deep: var(--pine-deep);
+  --color-on-pine: var(--on-pine);
+  --color-pine-soft: var(--pine-soft);
+  --color-signal: var(--signal);
+  --color-on-signal: var(--on-signal);
+  --color-signal-soft: var(--signal-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, monospace;
+}
+
+/* Paleta: pino institucional, amarillo de señalética, papel con sesgo verde. */
+:root {
+  --bg: #f3f6f4;
+  --surface: #ffffff;
+  --sunken: #e9eeeb;
+  --ink: #13211c;
+  --muted: #56665f;
+  --line: #d5ddd8;
+  --pine: #1d5a48;
+  --pine-deep: #123d31;
+  --on-pine: #f4fbf8;
+  --pine-soft: #dcebe5;
+  --signal: #e9a514;
+  --on-signal: #2a1d00;
+  --signal-soft: #fbefd0;
+  --ok: #23774a;
+  --ok-soft: #dcf0e3;
+  --warn: #a7680a;
+  --warn-soft: #fbecd1;
+  --danger: #b3261e;
+  --danger-soft: #f9dedb;
+  --info: #23629f;
+  --info-soft: #dce9f6;
+  --map-ground: #e4ebe6;
+  --map-building: #c9d3cd;
+  --map-green: #b9d8bf;
+  --map-path: #a8b4ad;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1613;
+    --surface: #15201c;
+    --sunken: #101a16;
+    --ink: #e3ece8;
+    --muted: #92a39b;
+    --line: #26352f;
+    --pine: #5bb397;
+    --pine-deep: #8fd1bc;
+    --on-pine: #062017;
+    --pine-soft: #1a3a30;
+    --signal: #f1b83c;
+    --on-signal: #241800;
+    --signal-soft: #3a2d0e;
+    --ok: #63c08a;
+    --ok-soft: #173426;
+    --warn: #e5a54a;
+    --warn-soft: #3a2a12;
+    --danger: #f08a80;
+    --danger-soft: #3c1a17;
+    --info: #7db3e8;
+    --info-soft: #162b40;
+    --map-ground: #17231e;
+    --map-building: #2b3a33;
+    --map-green: #1f3a2a;
+    --map-path: #3c4c45;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0e1613;
+  --surface: #15201c;
+  --sunken: #101a16;
+  --ink: #e3ece8;
+  --muted: #92a39b;
+  --line: #26352f;
+  --pine: #5bb397;
+  --pine-deep: #8fd1bc;
+  --on-pine: #062017;
+  --pine-soft: #1a3a30;
+  --signal: #f1b83c;
+  --on-signal: #241800;
+  --signal-soft: #3a2d0e;
+  --ok: #63c08a;
+  --ok-soft: #173426;
+  --warn: #e5a54a;
+  --warn-soft: #3a2a12;
+  --danger: #f08a80;
+  --danger-soft: #3c1a17;
+  --info: #7db3e8;
+  --info-soft: #162b40;
+  --map-ground: #17231e;
+  --map-building: #2b3a33;
+  --map-green: #1f3a2a;
+  --map-path: #3c4c45;
+  color-scheme: dark;
+}
+
+@layer base {
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+}
+}
+
+@layer components {
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Franja superior en teléfonos para que nada se vea bajo la barra del sistema */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--surface);
+}
+
+/* Lado de la página: respeta barras del sistema en teléfonos */
+.gutter {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+
+/* Bloques del horario: banda de color por materia */
+.slot {
+  border-left: 4px solid var(--slot, var(--pine));
+  background: color-mix(in oklab, var(--slot, var(--pine)) 12%, var(--surface));
+}
+
+.typing span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 2px;
+  border-radius: 999px;
+  background: var(--muted);
+  animation: blink 1.2s infinite ease-in-out;
+}
+.typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes blink {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Edificio A — Aulas 15 a 18",
+    "kind": "edificio",
+    "description": "Edificio de aulas de licenciatura. Planta baja: aulas 15 y 16; planta alta: aulas 17 y 18.",
+    "latitude": 19.432404,
+    "longitude": -99.140762
+  },
+  {
+    "name": "Aula 15",
+    "kind": "aula",
+    "description": "Edificio A, planta baja, ala poniente.",
+    "latitude": 19.432404,
+    "longitude": -99.140991
+  },
+  {
+    "name": "Aula 16",
+    "kind": "aula",
+    "description": "Edificio A, planta baja, ala oriente.",
+    "latitude": 19.432404,
+    "longitude": -99.140838
+  },
+  {
+    "name": "Aula 17",
+    "kind": "aula",
+    "description": "Edificio A, planta alta, ala poniente.",
+    "latitude": 19.432404,
+    "longitude": -99.140686
+  },
+  {
+    "name": "Aula 18",
+    "kind": "aula",
+    "description": "Edificio A, planta alta, ala oriente.",
+    "latitude": 19.432404,
+    "longitude": -99.140533
+  },
+  {
+    "name": "Edificio B — Laboratorios de Cómputo",
+    "kind": "edificio",
+    "description": "Laboratorios LC1 a LC4 y sala de servidores.",
+    "latitude": 19.432404,
+    "longitude": -99.139857
+  },
+  {
+    "name": "Control Escolar",
+    "kind": "oficina",
+    "description": "Edificio C, planta baja. Ventanillas 1 a 4. Lunes a viernes de 9:00 a 15:00.",
+    "latitude": 19.432404,
+    "longitude": -99.139124
+  },
+  {
+    "name": "Servicios Escolares",
+    "kind": "oficina",
+    "description": "Edificio C, planta alta. Constancias, credenciales y becas.",
+    "latitude": 19.432404,
+    "longitude": -99.138876
+  },
+  {
+    "name": "Coordinación Académica",
+    "kind": "oficina",
+    "description": "Edificio D, primer piso. Atención a estudiantes de 10:00 a 14:00.",
+    "latitude": 19.431686,
+    "longitude": -99.139
+  },
+  {
+    "name": "Biblioteca Central",
+    "kind": "servicio",
+    "description": "Préstamo de libros, cubículos de estudio y equipo de cómputo.",
+    "latitude": 19.431686,
+    "longitude": -99.140762
+  },
+  {
+    "name": "Cafetería",
+    "kind": "servicio",
+    "description": "Abierta de 7:00 a 17:00.",
+    "latitude": 19.431596,
+    "longitude": -99.139905
+  },
+  {
+    "name": "Departamento de Mantenimiento",
+    "kind": "oficina",
+    "description": "Taller junto a la cancha. Recibe reportes de fallas.",
+    "latitude": 19.431147,
+    "longitude": -99.138571
+  },
+  {
+    "name": "Servicios del Campus — Módulo de atención",
+    "kind": "oficina",
+    "description": "Seguridad, limpieza y objetos perdidos. Junto a la explanada.",
+    "latitude": 19.432045,
+    "longitude": -99.139428
+  },
+  {
+    "name": "Enfermería",
+    "kind": "servicio",
+    "description": "Primeros auxilios. Edificio D, planta baja.",
+    "latitude": 19.431686,
+    "longitude": -99.138857
+  },
+  {
+    "name": "Acceso principal",
+    "kind": "acceso",
+    "description": "Entrada peatonal y vehicular sobre la avenida principal.",
+    "latitude": 19.43315,
+    "longitude": -99.14
+  },
+  {
+    "name": "Estacionamiento",
+    "kind": "estacionamiento",
+    "description": "Estacionamiento de estudiantes y personal.",
+    "latitude": 19.43209,
+    "longitude": -99.141448
+  },
+  {
+    "name": "Cancha de usos múltiples",
+    "kind": "deportivo",
+    "description": "Básquetbol y voleibol.",
+    "latitude": 19.431102,
+    "longitude": -99.140048
+  },
+  {
+    "name": "Explanada central",
+    "kind": "area_verde",
+    "description": "Punto de reunión en caso de sismo.",
+    "latitude": 19.432045,
+    "longitude": -99.140286
+  }
+]

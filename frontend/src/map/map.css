@@ -1,0 +1,137 @@
+/* Tema del mapa del campus sobre Leaflet (los colores salen de los tokens del tema) */
+.campus-map.leaflet-container {
+  background: var(--map-ground);
+  font-family: var(--font-sans);
+  z-index: 0;
+}
+
+.campus-shape {
+  stroke: var(--map-path);
+  fill: var(--map-building);
+  fill-opacity: 1;
+}
+.campus-shape.kind-perimetro {
+  fill: var(--map-ground);
+  stroke: var(--pine);
+  stroke-dasharray: 6 5;
+  stroke-opacity: 0.55;
+}
+.campus-shape.kind-edificio {
+  fill: var(--map-building);
+  stroke: var(--muted);
+  stroke-opacity: 0.6;
+}
+.campus-shape.kind-area_verde,
+.campus-shape.kind-deportivo {
+  fill: var(--map-green);
+  stroke: var(--ok);
+  stroke-opacity: 0.35;
+}
+.campus-shape.kind-estacionamiento {
+  fill: var(--sunken);
+  stroke: var(--map-path);
+  stroke-dasharray: 3 3;
+}
+.campus-shape.kind-plaza {
+  fill: var(--signal-soft);
+  stroke: var(--signal);
+  stroke-opacity: 0.45;
+}
+.campus-shape.kind-camino {
+  fill: none;
+  stroke: var(--map-path);
+  stroke-dasharray: 2 6;
+  stroke-linecap: round;
+}
+
+.campus-pin-wrap {
+  background: transparent;
+  border: 0;
+}
+.campus-pin {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 4px;
+  transform: rotate(-45deg);
+  background: var(--pine);
+  border: 2px solid var(--surface);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.28);
+  transition: transform 0.15s ease;
+}
+.campus-pin > span {
+  transform: rotate(45deg);
+  font: 700 12px/1 var(--font-mono);
+  color: var(--on-pine);
+}
+.campus-pin.kind-aula {
+  background: var(--info);
+}
+.campus-pin.kind-oficina {
+  background: var(--pine-deep);
+}
+.campus-pin.kind-servicio {
+  background: var(--ok);
+}
+.campus-pin.kind-acceso,
+.campus-pin.kind-estacionamiento {
+  background: var(--muted);
+}
+.campus-pin.kind-area_verde,
+.campus-pin.kind-deportivo {
+  background: var(--ok);
+}
+.campus-pin.is-selected {
+  background: var(--signal);
+  transform: rotate(-45deg) scale(1.18);
+}
+.campus-pin.is-selected > span {
+  color: var(--on-signal);
+}
+.campus-pick {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 3px solid var(--signal);
+  background: color-mix(in oklab, var(--signal) 35%, transparent);
+}
+
+.campus-map .leaflet-popup-content-wrapper,
+.campus-map .leaflet-popup-tip {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 6px 22px rgb(0 0 0 / 0.22);
+}
+.campus-map .leaflet-popup-content {
+  margin: 12px 16px;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.campus-map .leaflet-popup-content p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+.campus-popup-kind {
+  display: block;
+  font: 600 10.5px/1.6 var(--font-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pine);
+}
+.campus-map .leaflet-bar a {
+  background: var(--surface);
+  color: var(--ink);
+  border-bottom-color: var(--line);
+}
+.campus-map .leaflet-bar a:hover {
+  background: var(--sunken);
+}
+.campus-map .leaflet-control-attribution {
+  background: color-mix(in oklab, var(--surface) 85%, transparent);
+  color: var(--muted);
+}
+.campus-map .leaflet-control-attribution a {
+  color: var(--pine);
+}

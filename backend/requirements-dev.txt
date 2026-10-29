@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==8.3.5
+# Opcional: embeddings multilingües en CPU sin LM Studio (EMBEDDING_PROVIDER=fastembed)
+# fastembed==0.6.1
